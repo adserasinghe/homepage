@@ -162,32 +162,6 @@ p {
     }
   }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-.column {
-    width: 27%;
-}
-
-p {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
 
 .container {
     position: relative;
@@ -247,7 +221,7 @@ li {
   }
   
   .container .card .contentBx h3 {
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
@@ -267,8 +241,8 @@ li {
     position: absolute;
     bottom: 50px;
     display: flex;
+    color: #000000;
   }
-  
   .container .card .sci li {
     list-style: none;
     margin: 0 10px;
@@ -284,7 +258,7 @@ li {
   }
   
   .container .card .sci a {
-    color: #fff;
+    color: #000000;
     font-size: 24px;
   }
 #about {
@@ -311,4 +285,30 @@ li {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.column {
+  width: 27%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
 }
